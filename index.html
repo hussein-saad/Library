@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Library</title>
-    <link rel = "stylesheet" href="style.css">
-    <script src="app.js" defer> </script>
+    <link rel="shortcut icon" href="./images/icon.jpg">
+    <link rel = "stylesheet" href="./style/style.css">
+    <script src="script/app.js" defer> </script>
 </head>
 <body>
     <div class="header">
@@ -17,13 +18,13 @@
             <div class="modal">
                 <h2> Add a book </h2>
                 <div class="book-info">
-                    <input type="text" placeholder="title" class="text">
-                    <input type="text" placeholder="author" class="text">
-                    <input type="number" placeholder="pages" class="text"> 
+                    <input type="text" placeholder="title" class="text" id ="title">
+                    <input type="text" placeholder="author" class="text" id = "author">
+                    <input type="number" placeholder="pages" class="text" id = "pages"> 
                 </div>
                 <div class="checker">
                     <label> Have you read it? </label>
-                    <input type="checkbox">
+                    <input type="checkbox" id = "read">
                 </div>
                 <div class="modal-btns">
                     <button type="submit" class="add-btn"> Add </button>
@@ -32,5 +33,10 @@
             </div>
         </dialog>
     </div>
+
+    <div class="grid">
+        
+    </div>
+
 </body>
 </html>

@@ -3,7 +3,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background: #eee;
-    font-family: Besley, serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -38,6 +38,8 @@ body {
     background-color: #ddd;
     text-align: center;
     border-radius: 16px;
+    border: 1px solid #eee;
+    box-shadow: 0 0 8px rgba(0,0,0,0.5);
 }
 
 
@@ -54,7 +56,7 @@ body {
 }
 
 .text {
-    font-size: 20px;
+    font-size: 18px;
     padding: 8px;
     border: 1px solid #eee;
 }
@@ -71,6 +73,7 @@ body {
 .modal-btns{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 8px;
 }
 
 .add-btn {
@@ -90,5 +93,45 @@ body {
     color: #eee;
     background-color: rgb(233, 62, 62);
 }
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 16px;
+    padding: 16px;
+}
+
+.card {
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    background-color: white;
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    width: 350px;
+}
+
+.card-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-book-btn {
+    padding: 8px;
+    background-color: rgb(233, 62, 62);
+    color: #eee;
+    border: 1px solid #eee;
+    font-size: 24px;
+}
+
+.edit-btn {
+    padding: 8px;
+    color: #eee;
+    border: 1px solid #eee;
+    font-size: 24px;
+}
+
 
 
